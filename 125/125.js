@@ -21,4 +21,11 @@
   //split does it. turns string into arrays.
   //depois eu tenho que juntar os elementos da array
   
+
+  // 1 == '1' -> returns true
+// 1 === '1' -> returns false
+// == converts both sides of the comparison to be the same type
+// === requires both sides of the comparison to be the same type in order to be true
+
+
   
