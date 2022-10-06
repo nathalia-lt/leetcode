@@ -14,11 +14,48 @@
 
 //Sample Input:
 
-averagePair([1,2,3],2.5) // true
-averagePair([1,3,3,5,6,7,10,12,19],8) // true
-averagePair([-1,0,3,4,5,6], 4.1) // false
-averagePair([],4) // false
+// averagePair([1,2,3],2.5) // true
+// averagePair([1,3,3,5,6,7,10,12,19],8) // true
+// averagePair([-1,0,3,4,5,6], 4.1) // false
+// averagePair([],4) // false
 
-function averagePair(){
-    
+// .forEach() -> does not return anything but allows you to apply some logic with each element in the array, 
+// allows you to mutate the base array [is destructive]
+
+
+function averagePair(arr, num){
+    let start = 0
+    let end = arr.lenght -1 
+    while (start < end){
+        let average = (arr[start] + arr[end]) / 2
+        if (average === num ) return true
+        else if (average < num) start++
+        else end--
+    }
+    return false
 }
+
+console.log(averagePair([1,3,3,5,6,7,10,12,19],8))
+
+
+
+
+// function averagePair(arr){
+//     let sum = 0
+//     arr.forEach(num => {
+//         sum += num 
+//         console.log(sum) 
+//     }
+//     );
+//     let average = sum / arr.length
+//     console.log(average)
+//     let i =0
+//     for (let j=1; j < arr.length; j++){
+//         if (arr[i] + arr[j] == average){
+//             return true
+//         }
+//         else false
+//     }
+// }
+
+//console.log(averagePair([1,3,3,5,6,7,10,12,19]))
