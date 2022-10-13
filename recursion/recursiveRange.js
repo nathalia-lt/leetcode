@@ -8,7 +8,6 @@
 // recursiveRange(6) // 21
 // recursiveRange(10) // 55 
 
-//factorial 0 (!0) is always 1
 
 
 function recursiveRange(num){

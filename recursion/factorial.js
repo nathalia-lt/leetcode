@@ -11,6 +11,9 @@
 // factorial(4) // 24
 // factorial(7) // 5040
 
+//factorial 0 (!0) is always 1
+
+
 function factorial(x){
     if (x < 0 ) return 0;
     if (x <= 1 ) return 1;
