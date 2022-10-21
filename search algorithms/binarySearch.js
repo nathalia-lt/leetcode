@@ -1,5 +1,9 @@
 
 
+//when the array is very big it is recommended to use binary search. 
+//but for it the array has to be sorted otherwise
+//we will have to use linear search.
+
 //Write a function called binarySearch which accepts a sorted array and a value
 //and returns the index at which the value exists. Otherwise, return -1.
 
