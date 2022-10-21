@@ -10,9 +10,6 @@
 //numArray = [1,2,3,4,5]
 //let sliceArray = numArray.slice(1,3)
 
-
-
-
 // productOfArray([1,2,3]) // 6
 // productOfArray([1,2,3,10]) // 60
 

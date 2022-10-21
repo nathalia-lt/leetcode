@@ -1,4 +1,7 @@
 
+//FREQUANCY COUNTERS
+
+
 // Given two strings, write a function to determine if the second string is an anagram of the first. 
 // An anagram is a word, phrase, or name formed by rearranging the letters of another, 
 // such as cinema, formed from iceman.
@@ -29,7 +32,6 @@ function validAnagram(first, second){
     }
     //I am going to make a counter holder, to count how many chacacters each string has.
     const lookup = {}
-  
     //I am going to do a for loop, for each string, to count how many values each index has.
     for (let i in first){
         let letter = first[i]
